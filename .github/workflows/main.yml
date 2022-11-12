@@ -26,7 +26,7 @@ jobs:
           username: migrostore
           server: s46.zenbox.pl
           port: 22 # default is 22
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          password: mxDwBKKn5sQ6
  
           
           # will put all file under this path
