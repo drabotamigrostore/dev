@@ -1,4 +1,4 @@
-name: CI-SFTP
+oname: CI-SFTP
  
 # Controls when the action will run. 
 on:
@@ -24,7 +24,7 @@ jobs:
         uses: wlixcc/SFTP-Deploy-Action@v1.2.1
         with:
           username: migrostore
-          server: s46.migrostore.pl
+          server: s46.zenbox.pl
           port: 22 # default is 22
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
  
